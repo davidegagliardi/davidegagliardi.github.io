@@ -1,0 +1,60 @@
+# Site settings
+title: Davide Gagliardi
+email: xoqqnony
+url: https://davidegagliardi.com
+description: "Experienced cloud developer @ Ericsson | ICT Engineer"
+keywords: "Cloud, Network, Infrastructures, CNI, student, EIT, Digital, Information, Communication, Technology, ICT, Engineer, UniTN"
+skills: "Experienced cloud developer @ Ericsson | ICT Engineer"
+meta_author: Gagliardi Davide
+
+baseurl:           "/"
+url:               "https://davidegagliardi.com"
+permalink: /:title/
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 54789C
+  primary-rgb: "84,120,156"
+  secondary: 2B3D4F
+  secondary-dark: 1D2936
+
+# Footer settings
+footer:
+  copyright: Davide Gagliardi
+  location: Location
+  social: Around the Web
+  #credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/davidegagliardi
+  - title: github
+    url: https://github.com/davidegagliardi
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Based in Helsinki
+
+# Credits content
+#credits: 'Bla bla bla'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
